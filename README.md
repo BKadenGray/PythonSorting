@@ -7,7 +7,7 @@ To run the file within the Linux terminal type the following:
 
 python3 (path of python file) (path of sort file)
 
-Within the file, make sure to update your testing shell scripts locations.
+Within the file, make sure to update your testing shell scripts locations. They are labeled in the beginning as test1 and test2
 
 If you run into errors with the testing portion, specifically an error with #!/bin/bash not being found
 In your linux terminal run the following: 
