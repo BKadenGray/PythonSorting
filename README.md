@@ -7,4 +7,9 @@ To run the file within the Linux terminal type the following:
 
 python3 (path of python file) (path of sort file)
 
-No parentheses needed around the path of the sort file. Type the path same as the python file itself.
+Within the file, make sure to update your testing shell scripts locations.
+
+If you run into errors with the testing portion, specifically an error with #!/bin/bash not being found
+In your linux terminal run the following: 
+sed -i -e 's/\r$//' scriptname.sh
+scriptname will be the name of the testing files. Perform for both tests.
