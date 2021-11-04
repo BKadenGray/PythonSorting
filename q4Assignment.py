@@ -8,8 +8,8 @@ import fileinput
 import sys
 import subprocess
 
-test1 = '/home/azakan/diftest1.sh'
-test2 = '/home/azakan/diftest2.sh'
+test1 = 'diftest1.sh'
+test2 = 'diftest2.sh'
 names = []
 temp = ""
 for line in fileinput.input():
