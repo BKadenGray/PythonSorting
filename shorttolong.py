@@ -7,8 +7,7 @@ names = []
 temp = ""
 for line in fileinput.input():
     temp = line.strip()
-    if len(temp) > 0x:
-        names.append(temp)
+    if len(temp) > 0:
         names.append(temp)
 
 print("Shortest to Longest Method")
