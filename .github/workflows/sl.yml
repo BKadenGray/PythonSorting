@@ -1,0 +1,18 @@
+name: Short to Long
+
+# Controls when the workflow will run
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    name: Short to Long
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Start program
+        run: |
+          sed -i 's/\r//' diftest1.sh
+          python3 shorttolong.py sortme.txt
