@@ -1,3 +1,7 @@
+import fileinput
+import sys
+import subprocess
+
 test1 = 'diftest1.sh'
 names = []
 temp = ""
