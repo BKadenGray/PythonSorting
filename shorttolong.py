@@ -7,7 +7,7 @@ names = []
 temp = ""
 for line in fileinput.input():
     temp = line.strip()
-    if len(temp) > 0:
+    if len(temp) > 0x:
         names.append(temp)
         names.append(temp)
 
