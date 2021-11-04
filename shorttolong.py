@@ -9,6 +9,7 @@ for line in fileinput.input():
     temp = line.strip()
     if len(temp) > 0:
         names.append(temp)
+        names.append(temp)
 
 print("Shortest to Longest Method")
 final = sorted(names, key=lambda x: (len(x), x))
